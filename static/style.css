@@ -1,0 +1,54 @@
+/* Background with an image */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+    background: url("/static/image/bg.jpg") no-repeat center center fixed;
+
+    background-size: cover;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Chat Container */
+.chatbox {
+    width: 80%;
+    max-width: 900px;  /* Adjust as needed */
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
+/* Chat Box */
+.chatbox {
+    width: 80%;
+    max-width: 900px;  /* Adjust as needed */
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
+/* Input Field */
+input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Send Button */
+button {
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

@@ -1,0 +1,26 @@
+{
+    "greetings": {
+        "patterns": ["hi", "hello", "hey", "hii", "hola"],
+        "responses": ["Hello! How can I assist you?", "Hi there!", "Hey! How’s it going?", "Hola! What can I do for you?"]
+    },
+    "goodbye": {
+        "patterns": ["bye", "goodbye", "see you", "take care"],
+        "responses": ["Goodbye! Have a great day!", "See you later!", "Take care!"]
+    },
+    "thanks": {
+        "patterns": ["thanks", "thank you", "appreciate it"],
+        "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+    },
+    "weather": {
+        "patterns": ["what's the weather", "weather update", "how's the weather"],
+        "responses": ["I'm not a weather bot, but you can check online!", "Try checking your weather app!"]
+    },
+    "name": {
+        "patterns": ["what's your name", "who are you"],
+        "responses": ["I'm a chatbot powered by NLP!", "Call me your virtual assistant."]
+    },
+    "default": {
+        "patterns": [],
+        "responses": ["I'm sorry, I don't understand. Can you rephrase?", "Could you say that differently?", "Hmm, I didn't get that."]
+    }
+}
